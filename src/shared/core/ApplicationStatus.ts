@@ -1,0 +1,11 @@
+export enum ApplicationStatus {
+    OK = 'OK',
+    CREATED = 'CREATED',
+    NO_CONTENT = 'NO_CONTENT',
+    BAD_REQUEST = 'BAD_REQUEST',
+    FORBIDDEN = 'FORBIDDEN',
+    NOT_FOUND = 'NOT_FOUND',
+    SERVER_ERROR = 'SERVER_ERROR',
+    UNAUTHORIZED = 'UNAUTHORIZED',
+    CONFLICT = 'CONFLICT',
+}
